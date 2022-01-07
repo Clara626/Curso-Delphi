@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/12/14 15:18:19.000.523,=C:\Users\clara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/12/14 15:25:56.000.997,C:\Users\clara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\App_Indice\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2021/12/14 15:25:56.000.997,C:\Users\clara\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\App_Indice\uFrmPrincipal.pas</Transaction>
+    <Transaction>2021/12/14 15:26:39.000.424,C:\Users\clara\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\App_Indice\App_Indice.dproj</Transaction>
+    <Transaction>2021/12/21 14:20:15.000.316,=C:\App_Indice\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 14:21:02.000.902,C:\App_Indice\Unit1.dfm=C:\App_Indice\uFrmRequisitos.dfm</Transaction>
+    <Transaction>2021/12/21 14:21:02.000.902,C:\App_Indice\Unit1.pas=C:\App_Indice\uFrmRequisitos.pas</Transaction>
+    <Transaction>2021/12/21 15:18:49.000.717,=C:\App_Indice\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 15:19:19.000.221,C:\App_Indice\Unit1.pas=C:\App_Indice\uFrmResultado.pas</Transaction>
+    <Transaction>2021/12/21 15:19:19.000.221,C:\App_Indice\Unit1.dfm=C:\App_Indice\uFrmResultado.dfm</Transaction>
+    <Transaction>2021/12/21 16:48:27.000.110,=C:\App_Indice\Unit1.pas</Transaction>
+    <Transaction>2021/12/21 17:27:11.000.195,C:\App_Indice\Unit1.pas=C:\App_Indice\uDadosPessoa.pas</Transaction>
+  </Transactions>
+</BorlandProject>

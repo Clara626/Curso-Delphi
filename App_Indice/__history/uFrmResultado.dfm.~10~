@@ -1,0 +1,86 @@
+object FrmResultado: TFrmResultado
+  Left = 0
+  Top = 0
+  Caption = 'Seu '#237'ndice de massa corporal '#233':'
+  ClientHeight = 277
+  ClientWidth = 524
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  PixelsPerInch = 96
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 176
+    Top = 120
+    Width = 86
+    Height = 15
+    Caption = 'Altura..................'
+  end
+  object Label2: TLabel
+    Left = 176
+    Top = 141
+    Width = 85
+    Height = 15
+    Caption = 'Peso....................'
+  end
+  object Label3: TLabel
+    Left = 176
+    Top = 163
+    Width = 82
+    Height = 15
+    Caption = 'Sexo...................'
+  end
+  object Label4: TLabel
+    Left = 176
+    Top = 184
+    Width = 82
+    Height = 15
+    Caption = 'IMC....................'
+  end
+  object LblAltura: TLabel
+    Left = 312
+    Top = 120
+    Width = 32
+    Height = 15
+    Caption = 'Altura'
+  end
+  object LblPeso: TLabel
+    Left = 312
+    Top = 141
+    Width = 25
+    Height = 15
+    Caption = 'Peso'
+  end
+  object LblImc: TLabel
+    Left = 312
+    Top = 184
+    Width = 36
+    Height = 15
+    Caption = 'LblImc'
+  end
+  object LblSexo: TLabel
+    Left = 312
+    Top = 163
+    Width = 41
+    Height = 15
+    Caption = 'LblSexo'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 524
+    Height = 65
+    Align = alTop
+    Caption = 'Seu '#237'ndece de Massa Corporal '#233': '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,49 @@
+unit uFrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, uFrmRequisitos, uFrmResultado, uDadosPessoa;
+
+type
+  TFrmPrincipal = class(TForm)
+    BtnResultado: TButton;
+    BtnRequisito: TButton;
+    Label1: TLabel;
+    Label3: TLabel;
+    Label2: TLabel;
+    Panel1: TPanel;
+    EdtAltura: TEdit;
+    EdtPeso: TEdit;
+    CmbSexo: TComboBox;
+    procedure BtnRequisitoClick(Sender: TObject);
+    procedure BtnResultadoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPrincipal: TFrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmPrincipal.BtnRequisitoClick(Sender: TObject);
+begin
+     FrmRequisitos.ShowModal;
+end;
+
+procedure TFrmPrincipal.BtnResultadoClick(Sender: TObject);
+begin
+     P_Dados_Pessoa.Altura := 1.80;
+     P_Dados_Pessoa.Peso := 80;
+     P_Dados_Pessoa.Sexo := 'F';
+     P_Dados_Pessoa.IMC := 'não definido';
+     FrmResultado.ShowModal;
+end;
+
+end.
